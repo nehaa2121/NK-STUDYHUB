@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Introduction to Computers - MCQs</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="mcqs.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="nkmain (2).png" width="100px" height="100px" alt="nklogo">
+        </header>
+    <h1>Characteristics of Computers - MCQs</h1>
+    <form id="quizform">
+        <div class="question">
+            <h3>1. Which feature of computers refers to their ability to work much faster than humans?</h3>
+            <label class="labeloption"><input type="radio" name="q1" value="A">A. Accuracy</label>
+            <label class="labeloption"><input type="radio" name="q1" value="B">B. Speed</label>
+            <label class="labeloption"><input type="radio" name="q1" value="C">C. Efficiency</label>
+            <label class="labeloption"><input type="radio" name="q1" value="D">D. Diligence</label>
+        </div>
+                <div class="question">
+            <h3>2. Computers can execute how many instructions per second?</h3>
+            <label class="labeloption"><input type="radio" name="q2" value="A">A. Dozens</label>
+            <label class="labeloption"><input type="radio" name="q2" value="B">B. Hundreds</label>
+            <label class="labeloption"><input type="radio" name="q2" value="C">C. Millions</label>
+            <label class="labeloption"><input type="radio" name="q2" value="D">D. One</label>
+        </div>
+                <div class="question">
+            <h3>3. If a computer produces incorrect results, the error is usually due to:</h3>
+            <label class="labeloption"><input type="radio" name="q3" value="A">A. Machine failure</label>
+            <label class="labeloption"><input type="radio" name="q3" value="B">B. Input or instruction errors</label>
+            <label class="labeloption"><input type="radio" name="q3" value="C">C. Diligence failure</label>
+            <label class="labeloption"><input type="radio" name="q3" value="D">D. Lack of storage</label>
+        </div>
+                <div class="question">
+            <h3>4. Which Characteristic means a computer performs tasks automatically after being started?</h3>
+            <label class="labeloption"><input type="radio" name="q4" value="A">A. Automation</label>
+            <label class="labeloption"><input type="radio" name="q4" value="B">B. Versatility</label>
+            <label class="labeloption"><input type="radio" name="q4" value="C">C. Accuracy</label>
+            <label class="labeloption"><input type="radio" name="q4" value="D">D. Efficiency</label>
+        </div>
+                <div class="question">
+            <h3>5. A computer playing music, solving calculations, and running a game is an example of:</h3>
+            <label class="labeloption"><input type="radio" name="q5" value="A">A. Automation</label>
+            <label class="labeloption"><input type="radio" name="q5" value="B">B. Versatility</label>
+            <label class="labeloption"><input type="radio" name="q5" value="C">C. Speed</label>
+            <label class="labeloption"><input type="radio" name="q5" value="D">D. Diligence</label>
+        </div>
+                <div class="question">
+            <h3>6. Diligence in computers means:</h3>
+            <label class="labeloption"><input type="radio" name="q6" value="A">A. They get tired after long use</label>
+            <label class="labeloption"><input type="radio" name="q6" value="B">B. They can repeat tasks continuously without losing efficiency</label>
+            <label class="labeloption"><input type="radio" name="q6" value="C">C. They stop working after a few hours</label>
+            <label class="labeloption"><input type="radio" name="q6" value="D">D. They cannot handle repeated tasks</label>
+        </div>
+                <div class="question">
+                    <h3>7. Which Characteristic shows a computer can store huge amounts of data in a small space?</h3>
+            <label class="labeloption"><input type="radio" name="q7" value="A">A. Accuracy</label>
+            <label class="labeloption"><input type="radio" name="q7" value="B">B. versatility</label>
+            <label class="labeloption"><input type="radio" name="q7" value="C">C. Storage Capability</label>
+            <label class="labeloption"><input type="radio" name="q7" value="D">D. Automation</label>
+        </div>
+                <div class="question">
+            <h3>8. A computer continues to work without boredom or fatigue. This describes:</h3>
+            <label class="labeloption"><input type="radio" name="q8" value="A">A. Efficiency</label>
+            <label class="labeloption"><input type="radio" name="q8" value="B">B. Diligence</label>
+            <label class="labeloption"><input type="radio" name="q8" value="C">C. Versatility</label>
+            <label class="labeloption"><input type="radio" name="q8" value="D">D. Automation</label>
+        </div>
+                <div class="question">
+            <h3>9. Efficiency is a computer means:</h3>
+            <label class="labeloption"><input type="radio" name="q9" value="A">A. It slows down after repeated tasks</label>
+            <label class="labeloption"><input type="radio" name="q9" value="B">B. It works on repeated tasks without losing speed or quality</label>
+            <label class="labeloption"><input type="radio" name="q9" value="C">C. It works only for simple tasks</label>
+            <label class="labeloption"><input type="radio" name="q9" value="D">D. It stores more data</label>
+        </div>
+                <div class="question">
+            <h3>10. Which of the following is NOT a characteristic of a computer?</h3>
+            <label class="labeloption"><input type="radio" name="q10" value="A">A. Speed</label>
+            <label class="labeloption"><input type="radio" name="q10" value="B">B. Boredom</label>
+            <label class="labeloption"><input type="radio" name="q10" value="C">C. Versatility</label>
+            <label class="labeloption"><input type="radio" name="q10" value="D">D. Automation</label>
+        </div>
+        <button type= "button" onclick="checkAnswers()">Check Score</button>
+    <div id="result"></div>
+    </form>
+    <script>
+        function checkAnswers() {
+            const answers = {
+                q1: "B",
+                q2: "C",
+                q3: "B",
+                q4: "A",
+                q5: "B",
+                q6: "B",
+                q7: "C",
+                q8: "B",
+                q9: "B",
+                q10: "B"
+            };
+            let score = 0;
+            let total = Object.keys(answers).length;
+
+            for (let key in answers) {
+                const selected = 
+                document.querySelector(`input[name="${key}"]:checked`);
+                const labels =
+                document.querySelectorAll(`input[name="${key}"]+ label, input[name="${key}"]`);
+
+                labels.forEach(label =>
+                    label.parentElement.classList.remove("correct","wrong"));
+
+
+                    if(selected){
+                        const parent = selected.parentElement;
+                        if(selected.value === answers[key]) {
+                            parent.classList.add("correct");
+                            score++;
+                        }
+                        else{
+                            parent.classList.add("wrong");
+                        }
+                        }
+                    }
+                
+            document.getElementById("result").innerHTML = `You scored ${score} out of ${total}`;
+        }
+    </script>
+    </body>
+</html>

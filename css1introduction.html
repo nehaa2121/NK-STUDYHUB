@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CSS INTRODUCTION</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="learn.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="nkmain (2).png" width="100px" height="100px" alt="nklogo">
+        </header>
+        <div class="main">
+    <h1>CSS INTRODUCTION (CASCADING STYLE SHEETS)</h1>
+    <div class="subdiv">
+    <h3>CSS stands for Cascading Style Sheets.</h3>
+    <h3>It is used to style HTML elements - like adding colors, changing fonts, adjusting layout etc.</h3></div>
+    <br><br><hr>
+<h2>Why CSS?</h2>
+<div class="subdiv">
+<h3>HTML is used to structure content.<br>
+CSS is used to make it look good.</h3>
+<ul>
+    <li>Without CSS: Your website looks plain.</li><br>
+    <li>With CSS: You can design beautiful, responsive websites.</li>
+</ul></div>
+<br><br><hr>
+<h2>How CSS Works</h2>
+<div class="subdiv">
+<h3>CSS applies <strong>rules</strong> to HTML elements. A rule consists of:</h3>
+<div class="code">
+<pre>
+    h1{
+        color: blue;
+        font-size: 30px;
+    }
+</pre>
+</div>
+<h3>This makes all <span>&lt;h1&gt;</span> headings blue and size 30px.</h3>
+</div>
+<br><br><hr>
+<h2>Ways to Add CSS</h2>
+<div class="subdiv">
+<ol>
+    <li><strong>Inline CSS</strong> (inside HTML tag):</li>
+    <div class="code">
+    <p>html</p>
+    <pre>
+&lt;p style="color: red;"&gt;
+    </pre>
+    </div>
+    <li><strong>Internal CSS</strong> (inside &lt;style&gt;)</li>
+    <div class="code">
+        <p>html</p>
+        <pre>
+    &lt;head&gt;
+         &lt;style&gt;
+          p {
+            color: red;
+        }
+        &lt;/style&gt;
+     &lt;/head&gt;
+        </pre>
+        </div>
+        <li><strong>External CSS</strong> (best method, linked CSS file):</li>
+        <div class="code">
+        <p>html</p>
+        <pre>
+ &lt;link rel="stylesheet" href="style.css"&gt;
+        </pre>
+        <p>In <span>style.css</span>:</p>
+        <div>
+            <p>css</p>
+            <pre>
+         p {
+            color: red;
+         }
+            </pre>
+        </div></ol></div>
+        <br><br><hr>
+        <h2>CSS Syntax Basics</h2>
+        <div class="subdiv">
+        <ul>
+        <li><strong>Selectors:</strong>HTMl elements you want to style (e.g.,<span>h1</span>,<span>p</span>,<span>.class</span>, <span>#id</span>)</li><br>
+        <li><strong>Properties:</strong>What you want to change (e.g., <span>color</span>,<span>font-size</span>)</li><br>
+        <li><strong>Values:</strong>The value you assign to a property (<span>red</span>,<span>20px</span>,etc.)</li>
+    </ul>
+    </div>
+    <br><br><hr>
+    <h2>Example</h2>
+    <div class="subdiv">
+    <div class="code">
+    <p>html</p>
+    <pre>
+    &lt;!DOCTYPE html&gt; 
+    &lt;html&gt;
+    &lt;style&gt;
+      body {
+           background-color: lightyellow;
+    }
+      h1{
+        color: green;
+        text-align: center;
+    }
+      p {
+        font-size: 18px;
+    }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;Welcome to CSS!&lt;/h1&gt;
+&lt;p&gt;This is an example of internal CSS styling.&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    </div>
+    </div>
+<br><br><br><br>
+</div>
+</body>
+</html>

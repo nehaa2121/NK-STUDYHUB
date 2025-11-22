@@ -1,0 +1,32 @@
+ body{
+   background-color: #faf2fd;
+    font-family: HELVETICA;
+    color: #4c2358;
+    text-align: center;
+}
+            h1{
+                color:#25042f;
+                background-color:rgb(229, 178, 239);
+                border-radius: 10px;
+            }
+            a{
+                text-decoration: none;
+                font-size: 25px;
+                margin: 10px;
+                 color:rgb(234, 214, 238);
+
+            }
+            .main{
+                margin: 20px;
+                padding:50px;
+
+            }
+            .div1{
+                padding: 20px;
+                margin: 20px;
+                background-color: #25042f;
+                border-radius: 10px;
+            }
+            .div1:hover{
+                background-color: #752d8a;
+            }

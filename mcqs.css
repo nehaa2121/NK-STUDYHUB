@@ -1,0 +1,103 @@
+h1{
+                text-align:center;
+                color:#fff;
+            }
+            div{
+                font-size: 20px;
+            }
+            body{
+                 background-color: #faf2fd;
+                color: #4c2358;
+                margin:30px;
+                font-family: helvetica;
+            }
+            .question{
+            background-color:#fff;
+            padding:20px;
+            border-radius:20px;
+            margin-bottom: 15px;
+            box-shadow:0 0 8px rgba(0,0,0,0.1);
+            }
+            .question h3{
+            margin-top:0;
+            }
+            label{
+                display:block;
+                margin: 5px 0;
+                font-size: 16px;
+                color: rgb(239, 225, 242); 
+            }
+            #result {
+                font-weight:bold;
+                font-size: 18px;
+                color:#4c2358;
+                margin-top: 20px;
+                text-align: center;
+            }
+            .wrong{
+                color: red;
+            }
+            .correct{
+                color: green;
+            }
+            button{
+                padding:10px ;
+                font-size: 16px;
+                margin: 1px;
+                cursor: pointer;
+                background-color:#4c2358;
+                color:white;
+                border: none;
+                border-radius: 5px;
+                font-size: 30px;
+            }
+            button{
+                padding:8px;
+                font-size: 15px;
+                margin: 1px;
+                cursor: pointer;
+                background-color:#4c2358;
+                color:white;
+                border: none;
+                border-radius: 5px;
+            }
+            a{
+                color:#fff;
+                text-decoration: none;
+            }
+
+            @media(max-width:600px){
+                body{
+                    padding:10px;
+                }
+                .question{
+                    padding: 10px;
+
+                }
+                h1{
+                    font-size:30px;
+                }
+                label{
+                    font-size:15px;
+                }
+                button{
+                    font-size:15px;
+                    padding:8px 16px;
+                }
+            }
+            .labeloption{
+                background-color: rgb(97, 6, 97); 
+                 padding: 15px; 
+                 border-radius:10px;
+                  margin-bottom: 2px;
+                  cursor: pointer;
+
+            }
+            .labeloption:hover{
+                background-color: purple;
+            }
+            h1{
+                
+                color: rgb(97, 6, 97); 
+                
+            }

@@ -1,0 +1,118 @@
+ body{
+          text-align: center;
+          background-color: #faf2fd;
+          font-family: helvetica;
+        }
+        h1{
+            color:rgb(239,225, 242);
+            font-size: 50px;
+        }
+        a{
+            text-decoration: none;
+            color:rgb(239, 225,242);
+            font-size: 30px;
+        }
+        p{
+            font-size: 25px;
+            text-align:left;
+            color:#ebe0ee;
+        }
+        h2{
+            font-size: 40px;
+            color:#4c2358;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        h1{
+            font-size:50px;
+            background-color: #4c2358;
+            border-radius: 50px;
+        }
+        h3{
+            font-size: 30px;
+            text-align: left;
+            color: #dabde3;
+        }
+        .div2{
+            padding: 40px 0;
+            margin: 2px;
+            background-color:#fae8ff;
+            color: #1c0223;
+            border-radius: 5px;
+            border: 2px solid rgba#3f0d4d ;
+            font-size: 15px;
+            display:flexbox;
+            text-align: center;
+        }
+        .div2:hover{
+            padding: 50px;
+            font-size: 25px;
+
+        }
+        .end{
+            text-align: center;
+            color: #1c0223;
+        }
+            .hoverc{
+                background-color: #4e0565;
+                padding:10px;
+                border-radius: 20px;
+                margin:1px;
+                display: inline-block;
+
+            }
+            .hoverc:hover{
+                  background-color: rgb(74, 7, 75);
+                  padding: 10px;
+            }
+            a{
+                text-decoration: none;
+                color:rgb(239, 225, 242); 
+            }
+            section{
+                padding:30px;
+                margin:20px;
+                border-radius: 30px;
+            }
+            .menu{
+                font-size: 15px;
+            }
+            .hoverc1{
+                 background-color:#340144;
+                 margin:2px;
+                 border-radius: 10px;
+                 padding:12px;
+                 text-align:left;
+            }
+            .background{
+                background-color:rgb(74, 7, 75) ;
+                padding:10px;
+                margin: 1px;
+                border-radius: 20px;
+            }
+            .page{
+                background-color: #7e558b;
+                margin:0%;
+                padding: 10px;;
+                border-radius: 10px;
+            }
+
+@media screen and (max-width:600px){
+    h2{
+        font-size:13px;
+         background-color: rgb(239, 225,242);
+    }
+    p{
+        font-size: 11px;
+        padding-bottom: 2px;
+    }
+    h3{
+        font-size: 12px;
+    }
+    a{
+        font-size: 8px;
+    }
+    .hoverc{
+      font-size: 13px;
+    }
+}

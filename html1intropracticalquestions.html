@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML INTRODUCTION PRACTICAL EXERCISE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="practicalquestions.css" rel="stylesheet">
+     </head>
+    <body>
+        <header>
+            <img src="nkmain (2).png" width="100px" height="100px" alt="nklogo">
+        </header>
+    <h1>HTML INTRODUCTION PRACTICAL EXERCISE</h1>
+    <!--Question 1-->
+    <div class="question">
+    <h4>Q.1: Complete the blank in this line</h4>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html&gt;
+        &lt;head&gt;
+        &lt;title&gt;First Website&lt;/title&gt;
+        &lt;/head&gt;
+&lt;h1&gt;Hello World&lt;/h1&gt;
+<input type="text" id="answer1" placeholder="Your Answer">This is my first website.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+  </pre>
+  <div style="display:inline-flex">
+    <button onclick="checkAnswer1()">Check Answer</button>
+    <p id="result1"></p>
+    <button onclick="seeanswer1()">See Answer</button>
+    <p id="result01"></p>
+    </div>
+    </div>
+    
+    <!--Question 2 -->
+<div class="question">
+    <h4>Q.2: Complete the missing tag</h4>
+    <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;
+    <input type="text" id="answer2" placeholder="Your Answer">&gt;My Website&lt;/p&gt;
+    &lt;p&gt;Welcome to my page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+    </pre>
+    <div style="display: inline-flex;">
+    <button onclick="checkAnswer2()">Check Answer</button>
+    <p id="result2"></p>
+    <button onclick="seeanswer1()">See Answer</button>
+    <p id="result01"></p>
+    </div>
+    </div>
+    <div>
+        <!--Question 3-->
+        <div class="question">
+        <h4>Q.3: Fill in the missing tag:</h4>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    <input type="text" id="answer3" placeholder="Your Answer">My Website&lt;/h1&gt;
+    &lt;p&gt;Welcome to my page.&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <div style="display: inline-flex;">
+        <button onclick="checkAnswer3()">Check Answer</button>
+    <p id="result3"></p>
+    <button onclick="seeanswer1()">See Answer</button>
+    <p id="result01"></p>
+    </div>
+    </div>
+<!--Question 4-->
+    <div class="question">
+        <h4>Q.4: What's wrong with this code?</h4>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;h1&gt;My Page&lt;/h1&gt;
+&lt;body&gt;
+    &lt;p&gt;Welcome to my page&lt;/p&gt;
+&lt;html&gt;
+</pre>
+<div class="option">
+    <input type="radio" name="q4" id="opt1" value="A"><label for = "opt1">A) The &lt;head&gt; should not contain &lt;h1&gt;</label>
+</div>
+ <div class="option">
+    <input type ="radio" name="q4" id="opt2" value="B"><label for ="opt2">B) The &lt;body&gt; tag is opened inside &lt;head&gt;</label>
+ </div>
+ <div class="option">
+    <input type ="radio" name="q4" id="opt3" value="C"><label for ="opt3">C) The &lt;body&gt; tag is not closed</label>
+</div>
+
+<div class="option">
+    <input type ="radio" name="q4" id="opt4" value="D"><label for ="opt4">D) All of the above</label>
+</div>
+<div style="display:inline-flex;">
+<button onclick="checkAnswer4()">Check Answer</button>
+<p id="result4"></p>
+<button onclick="seeanswer1()">See Answer</button>
+    <p id="result01"></p>
+</div>
+</div>
+</div>
+<!--Question 5-->
+<div class="question">
+    <h4>Q.5: Fill in the missing tag:</h4>
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Motivation&lt;/title&gt;
+<input type="text" placeholder="YourAnswer" id="answer5">
+&lt;body&gt;
+    &lt;h5&gt;Motivational Quote&lt;/h5&gt;
+    &lt;p&gt;"Success doesn't come from what you do occasionally. It comes from what you do consistently."&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+        <div style="display: inline-flex;">
+<button onclick="checkAnswer5()">Check Answer</button>
+<p id="result5"></p>
+<button onclick="seeanswer1()">See Answer</button>
+    <p id="result01"></p>
+    </div>
+</div>
+
+
+    <button><a href="html1intropracticalexamples.html">Previous</a></button>
+    <button><a href="html1introprojectexamplesforpractice.html">Next</a></button>
+    <script>
+
+        function checkAnswer1() {
+            const userInput = document.getElementById("answer1").value.trim().toLowerCase();
+            const correct = "<p>";
+                const result = document.getElementById("result1");
+            if (userInput === correct) {
+                result.textContent ="✅ Right Answer!"
+               result.style.color ="green";
+            
+            }else{
+                result.textContent = "❌ Wrong Answer. Try Again!";
+                result.style.color = "red";
+   
+            }
+        }
+         function checkAnswer2() {
+            const userInput = document.getElementById("answer2").value.trim().toLowerCase();
+            const correct = "<p";
+            const result = document.getElementById("result2");
+            if (userInput === correct) {
+                result.textContent = "✅ Right Answer!";
+                result.style.color ="green";
+            
+            }else{
+                result.textContent ="❌ Wrong Answer. Try Again!";
+                result.style.color = "red";
+            }
+        }
+        function checkAnswer3() {
+            const userInput = document.getElementById("answer3").value.trim().toLowerCase();
+            const correct = "<h1>";
+                const result = document.getElementById("result3");
+                if (userInput === correct){
+                    result.textContent ="✅ Right Answer!";
+                    result.style.color= "green";
+                }else{
+                    result.textContent="❌ Wrong Answer. Try Again!";
+                    result.style.color = "red";
+                }  
+                  }
+                  function checkAnswer4() {
+                    const selected = document.querySelector('input[name="q4"]:checked');
+                    const result = document.getElementById("result4");
+
+                    if (!selected) {
+                        result.textContent = "❗ Please select an option.";
+                        result.style.color = "orange";
+                        return;
+                    }
+                    if (selected.value === "D") {
+                        result.textContent = "✅ Correct! All options are issues.";
+                        result.style.color = "green";
+                    }
+                    else{
+                        result.textContent = "❌ Incorrect. Try again.";
+                        result.style.color = "red";
+                    }
+                  }
+                 function checkAnswer5() {
+            const userInput = document.getElementById("answer5").value.trim().toLowerCase();
+            const correct = "</head>";
+                const result = document.getElementById("result5");
+                if (userInput === correct){
+                    result.textContent ="✅ Right Answer!";
+                    result.style.color= "green";
+                }else{
+                    result.textContent="❌ Wrong Answer. Try Again!";
+                    result.style.color = "red";
+                }  
+            }
+    </script>
+    </body>
+</html>

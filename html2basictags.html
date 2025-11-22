@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>HTML BASICS TAGS</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="learn.css" rel="stylesheet">
+    </head>
+    <body> 
+        <header>
+            <img src="nkmain (2).png" width="100px" height="100px" >
+        </header>
+          <div style="display:flex">
+         <div class="main1">
+       <a href="html1introduction.html"><div class="hoverc ">HTML INTRODUCTION</div></a><br><hr>
+        <a href="html2basictags.html"><div class="hoverc">HTML BASIC TAGS</div></a><br><hr>
+       <a href="html3textformatting.html"><div class="hoverc">HTML TEXT FORMATTING</div></a><br><hr>
+       <a href="html4lists.html"><div class="hoverc">HTML LISTS</div></a><br><hr>
+       <a href="html5linksandimages.html"><div class="hoverc">HTML LINKS AND IMAGES</div></a><br><hr>
+        <a href="html6tables.html"><div class="hoverc">HTML TABLES</div></a><br><hr>
+        <a href="html7formsandinputs.html"><div class="hoverc">HTML FORMS AND INPUTS</div></a><br><hr>
+        <a href="html8mediaelements.html"><div class="hoverc">HTML MEDIA ELEMENTS</div></a><br><hr>
+       <a href="html9sematicelements.html"><div class="hoverc">HTML SEMATIC ELEMENTS</div></a><br><hr>
+        <a href="html10htmlapladvanced.html"><div class="hoverc">HTML API </div></a><hr>
+    </div>
+    <div class="main">
+    <h1>HTML BASIC TAGS</h1>
+    <h2>What is HTML</h2>
+    <ul>
+        <li>HTML (HyperText Markup Language) is the <strong>standard language</strong> for creating web pages.</li>
+        <li>It uses to <strong>structure content</strong>.</li>
+    </ul>
+    <br><hr><br>
+    <h2>HTML TAGS</h2>
+    <h3>What is a tag?</h3>
+    <ul>
+        <li>Tags are used to <strong>define elements</strong> on a webpage.</li>
+        <li>Almost all HTML elements have <strong>opening and closing tags.</strong></li>
+    </ul>
+<div class="code">
+    <pre>
+ &lt;tagname&gt;Content goes here&lt;/tagname&gt;
+    </pre>   
+</div>
+ <ul>
+        <li><span>&lt;tagname&gt;</span> is the <strong>start tag.</strong></li><br>
+        <li><span>Content</span> is the <strong>data inside.</strong></li><br>
+        <li><span>&lt;/tagname&gt;</span> is the <strong>end tag.</strong></li>
+    </ul>
+    <h4>Example:</h4>
+    <div class="code">
+        <p>html</p>
+        <pre>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+        </pre>
+    </div>
+    <ul>
+        <li><span>&lt;p&gt;</span> = Opening Tag</li><br>
+        <li><span>&lt;/p&gt;</span> = Closing Tag</li><br>
+        <li><span>This is a paragraph</span> = Content inside the tag.</li>
+    </ul>
+    <br>
+    <br>
+    <h2>Basic HTML Tags</h2>
+    <h3>1. Headings: &lt;h1&gt; to &lt;h6&gt;</h3>
+    <h4>Use these to create titles or subtitles.
+        There are six levels of headings.</h4>
+        <ul>
+            <li>&lt;h1&gt; is the largest and boldest.</li>
+            <li>&lt;h6&gt; is the smallest and least bold.</li>
+        </ul>
+        <h4>Example:</h4>
+    <div class="code">
+       <pre>
+ &lt;h1&gt;Main Title&lt;/h1&gt;
+ &lt;h2&gt;Sub Title&lt;/h2&gt;
+ &lt;h3&gt;Section&lt;/h3&gt;
+ &lt;h4&gt;Subsection&lt;/h4&gt;
+ &lt;h5&gt;Note&lt;/h5&gt;
+ &lt;h6&gt;Smallest Heading&lt;/h6&gt;
+        </pre>
+    </div>
+    <h4>Output:</h4>
+    <div class="code">
+ <h1 style="text-align: left;">Main Title</h1>
+ <h2>Sub Title</h2>
+ <h3>Section</h3>
+ <h4>Subsection</h4>
+ <h5>Note</h5>
+ <h6>Smallest Heading</h6>
+    </div>
+    <h3>2. Paragraphs: &lt;p&gt;</h3>
+    <h4>Use this to write a block of text.</h4>
+    <h4>Example:</h4>
+    <div class="code">
+        <pre>
+ &lt;p&gt;This is a paragraph of text. It appears with some margin and line spacing.&lt;/p&gt;
+        </pre>
+    </div>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>This is a paragraph of text. It appears with some margin and line spacing.</p>
+    </div>
+    <h3>3. Line Break: &lt;br&gt;</h3>
+    <h4>Used to jump to the next line withput starting a new paragraph. 
+        It's a self-closing tag, so it doesn't need &lt;/br&gt;
+    </h4>
+    <h4>Example:</h4>
+    <div class="code">
+        <pre>
+ &lt;p&gt;Hello Neha!&lt;br&gt;Welcome to HTML learning.&lt;/p&gt;
+        </pre>
+    </div>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>Hello Neha!<br>Welcome to HTML learning.</p>
+    </div>
+    <h3>4. Horizontal Line: &lt;hr&gt;</h3>
+    <h4>This creates a horizontal line across the page. It used to separate section of content.</h4>
+    <h4>Example:</h4>
+    <div class="code">
+        <pre> 
+ &lt;p&gt;Above the line&lt;/p&gt;
+ &lt;hr&gt;
+ &lt;p&gt;Below the line&lt;/p&gt;
+        </pre>
+    </div>
+    <h4>Output:</h4>
+    <div class="code">
+        <p>Above the line</p>
+        <hr>
+        <p>Below the line</p>
+    </div>
+    <h3>5. Comments: &lt;!--Comment--&gt;</h3>
+    <h4>Comments are invisible notes in your code. They help you or other developers understand the code but don't appear on the webpage.</h4>
+    <h4>Example:</h4>
+    <div class="code">
+        <pre>
+ &lt;!--This is a Comment: It won't be shown on the page--&gt;
+ <p>This is visible</p></pre> 
+</div>
+    <br><hr>
+  
+     <h2>Notes:</h2>
+    <ul>
+        <li>HTML is not case-sensitive,but lowercase is standard</li>
+        <li>Elements can nest inside each other:</li>
+        <div class="code">
+            <pre>
+ &lt;p&gt;This is a &lt;strong&gt;<strong>bold</strong>&lt;/strong&gt;
+            </pre>
+            </div>
+    </ul>
+</div>
+<br><br><br><br>
+<div class="main1">
+<div class="option">
+    <a href="html2basictagsmcq.html">HTML BASIC TAGS EXERCISE </a>
+</div><br>
+<div class="option">
+<a href="html2basictagspracticalexamples.html">HTML BASIC TAGS PRACTICAL EXAMPLES</a>
+</div><br>
+<div class="option">
+<a href="html2basictagspracticalquestions.html">HTML BASIC TAGS PRACTICAL EXERCISE</a>
+</div><br>
+<div class="option">
+<a href="html2basictagspracticalexamples.html">HTML BASIC TAGS MINI PROJECT QUESTIONS</a>
+</div>
+</div>
+</div>
+<a href="html1introduction.html"><button>Previous</button></a>
+<a href="html3textformatting.html"><button>Next chapter</button></a>
+</body>
+</html>

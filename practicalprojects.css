@@ -1,0 +1,32 @@
+ a {
+                color: white;
+                text-decoration: none;
+            }
+            .hoverc{
+                background-color: rgb(210, 100, 211);
+                padding: 20px;
+                border-radius: 10px;
+                text-align: center;
+                margin: 2px;
+            }
+            .hoverc:hover{
+                 background-color: #25042f;
+            }
+            body{
+               background-color: #faf2fd;
+                color: #4c2358;
+                margin:30px;
+                font-family: helvetica;
+            }
+            h1{
+                font-size: 50px;
+                text-align: center;
+            }
+            h1 {
+    font-size: 3rem;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}

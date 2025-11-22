@@ -1,0 +1,152 @@
+ li{
+                font-size: 30px;
+            }
+            body{
+                font-family: helvetica;
+                 background-color: #faf2fd;
+                color:rgb(26, 5, 31); 
+            }
+            h1{
+                text-align: center;
+                 font-size: 70px;
+            }
+           
+            h3{
+                font-size: 30px;
+                color: #4c2358;
+                margin-bottom: 10px;
+            }
+            h2{
+                font-size: 40px;
+                color: #4c2358;
+            }
+            .code{
+                font-size: 30px;
+                background-color: rgb(235, 217, 235);
+                padding: 10px;
+                margin: 50px;
+                border-radius: 10px;
+                text-align: left;
+            }
+             button{
+                padding:8px;
+                font-size: 15px;
+                margin: 1px;
+                cursor: pointer;
+                background-color:#4c2358;
+                color:white;
+                border: none;
+                border-radius: 5px;
+            }
+          
+            .imp{
+                background-color: #ae7ebd;
+                padding: 2px 4px;
+            }
+            
+            .option{
+                background-color: #3f0c4f;
+                text-align: center;
+                margin-top: 10px;
+                padding: 30px;
+                font-size:30px;
+            }
+            a{
+                color:#d672f5;
+                text-decoration: none;
+            }
+            a:hover{
+                color:#e8acfb;
+            }
+            .main{
+                background-color: #ffffff;
+                margin: 5px;
+                padding: 15px;
+            }
+             span{
+                background-color: #bf96cc;
+                padding: 2px;
+            }
+            table tr th td{
+                border-collapse: collapse;
+            }
+            table{
+                border: 1px solid black;
+                width: 100%;
+            }
+            th{
+                background-color: #e0c1ef;
+            }
+            td{
+                background-color: #f7ebfc;
+            }
+            .main1{
+                background-color:  rgb(85, 31, 86);
+                color:#faf2fd;
+                display:inline;
+                margin: 0;
+                padding:7px;
+                font-size: 20px;
+                
+            }
+            li{
+                padding: 2px;
+            }
+            
+            @media screen and ( max-width:500px) {
+                body{
+                    padding: 10px;
+                    margin: 10px;
+                }
+               h1{
+                    font-size: 30px;
+                } 
+                h2{
+                    font-size: 25px;
+                }
+                ul{
+                    font-size: 10px;
+                }
+                }
+                h3{
+                    font-size: 15px;
+                }
+                .code{
+                    font-size: 11px;
+                    padding: 2px;
+                    margin: 5px;
+                }
+                pre{
+                    font-size: 13px;
+
+                }
+                .main{
+                    margin: 8px;
+                    border-radius: 5px;
+                    font-size: 20px;
+                }
+                .subdiv{
+                    font-size: 10px;
+                }
+               
+                li{
+                    font-size: 15px;
+                }
+                .explain{
+                    font-size:10px ;
+                }
+                .option{
+                    font-size: 14px;
+                     padding: 10px;
+                }
+                 .main1{
+                background-color:  rgb(85, 31, 86);
+                color:#faf2fd;
+                display:inline;
+                margin: 8px;
+                padding:8px;
+                font-size:8px;
+            }
+            
+           
+            

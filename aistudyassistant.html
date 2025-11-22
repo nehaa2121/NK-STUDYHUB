@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NK AI Study Assistant</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #f0f8ff; margin:0; }
+  #chat-container { position: fixed; bottom: 20px; right: 20px; width: 350px; max-width: 90%; background: white; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.2); overflow: hidden; }
+  #chat-header { background: #4c2358; color: white; padding: 10px; text-align: center; font-weight: bold; }
+  #chat-box { height: 300px; overflow-y: auto; padding: 10px; background: #f9f9f9; }
+  #user-input { width: 100%; height: 60px; border: 1px solid #ccc; border-radius: 5px; padding: 10px; box-sizing: border-box; margin-top: 5px; }
+  #send-btn { width: 100%; padding: 10px; border: none; background: #4c2358; color: white; border-radius: 5px; cursor: pointer; margin-top: 5px; }
+  .user-msg { color:#4c2358; margin: 5px 0; }
+  .ai-msg { color: #333; margin: 5px 0; }
+</style>
+</head>
+<body>
+  <header>
+    <img src="nkmain (2).png" width="100px" height="100px" alt="NK LOGO">
+  </header>
+
+<div id="chat-container">
+  <div id="chat-header">NK AI Study Assistant 🤖</div>
+  <div id="chat-box"></div>
+  <textarea id="user-input" placeholder="Ask a question..."></textarea>
+  <button id="send-btn">Ask</button>
+</div>
+
+<script src="chatbot.js"></script>
+</body>
+</html>

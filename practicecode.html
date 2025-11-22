@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NK Code Editor</title>
+</head>
+<body>
+  <header>
+    <img src="nkmain (2).png" width="100px" height="100px" alt="nklogo">
+  </header>
+
+<h2>🧠 Practice Code - NK Study Hub</h2>
+
+<label>HTML:</label>
+<textarea id="htmlCode" placeholder="Write HTML here..."></textarea>
+
+<label>CSS:</label>
+<textarea id="cssCode" placeholder="Write CSS here..."></textarea>
+
+<label>JavaScript:</label>
+<textarea id="jsCode" placeholder="Write JS here..."></textarea>
+
+<button onclick="run()">▶ Run Code</button>
+
+<h3>Output:</h3>
+<iframe id="output"></iframe>
+
+<script>
+  function run() {
+    const html = document.getElementById("htmlCode").value;
+    const css = "<style>" + document.getElementById("cssCode").value + "</style>";
+    const js = "<script>" + document.getElementById("jsCode").value + "<\/script>";
+
+    const output = document.getElementById("output");
+    output.srcdoc = html + css + js;
+  }
+</script>
+
+</body>
+</html>

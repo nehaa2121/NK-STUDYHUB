@@ -1,0 +1,74 @@
+            body{
+                 background-color: #faf2fd;
+                color: #4c2358;
+                margin:30px;
+                font-family: helvetica;
+            }
+             button{
+               
+                padding:8px ;
+                font-size: 15px;
+                margin: 1px;
+                cursor: pointer;
+                background-color:#4c2358;
+                color:white;
+                border: none;
+                border-radius: 5px;
+            }
+            input{
+              
+                text-align: center;
+                padding:1px ;
+                font-size:15px;
+                background-color: #deb2ec;
+                color:#4c2358;
+                margin: 2px;
+                display: inline;
+                border: none;
+
+            }
+            a{
+                color:white;
+                text-decoration: none;
+            }
+            .question{
+                margin-bottom: 40px;
+                font-size:15px;
+                background-color:#ffffff;
+                border-radius: 10px;
+                padding: 20px;
+                margin: 10px;
+                box-shadow: #16011d; 
+            }
+            ::placeholder{
+                color: #b182be;
+                font-size: 8px;
+            }
+            .option{
+            margin:10px 0;
+            color: #4c2358;
+            background-color: #b182be;
+            border-radius: 5px;   
+            }
+            h1{
+                text-align: center;
+                background-color: rgb(97, 6, 97);
+                color: rgb(239, 225, 242);
+                border-radius:40px;
+            }
+            @media screen and (max-width:600px){
+                input{
+                    font-size: 10px;
+                    padding: 5px;
+                }
+                 .question{
+                margin-bottom: 40px;
+                font-size:10px;
+                background-color:#e9d0f1;
+                border-radius: 10px;
+                padding: 30px;
+                margin: 10px;
+                box-shadow: #16011d; 
+            }
+            
+            }
