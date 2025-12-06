@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HTML TABLES</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="learn.css" rel="stylesheet">
+    </head>
+    <body>
+    <header><img src="nkmain (2).png" width="100px" height="100px" alt="nklogo"></header>
+        <div style="display:flex">
+         <div class="main1">
+       <a href="html1introduction.html"><div class="hoverc ">HTML INTRODUCTION</div></a><br><hr>
+        <a href="html2basictags.html"><div class="hoverc">HTML BASIC TAGS</div></a><br><hr>
+       <a href="html3textformatting.html"><div class="hoverc">HTML TEXT FORMATTING</div></a><br><hr>
+       <a href="html4lists.html"><div class="hoverc">HTML LISTS</div></a><br><hr>
+       <a href="html5linksandimages.html"><div class="hoverc">HTML LINKS AND IMAGES</div></a><br><hr>
+        <a href="html6tables.html"><div class="hoverc">HTML TABLES</div></a><br><hr>
+        <a href="html7formsandinputs.html"><div class="hoverc">HTML FORMS AND INPUTS</div></a><br><hr>
+        <a href="html8mediaelements.html"><div class="hoverc">HTML MEDIA ELEMENTS</div></a><br><hr>
+       <a href="html9sematicelements.html"><div class="hoverc">HTML SEMATIC ELEMENTS</div></a><br><hr>
+        <a href="html10htmlapladvanced.html"><div class="hoverc">HTML API </div></a><hr>
+    </div>
+    <div class="main">
+        <h1>HTML TABLES</h1>
+        <section>
+            <h2>What is a Table in HTML</h2>
+            <p>A table is used to display data in rows and columns format - just like in Excel</p>
+            <p>We use the &lt;table&gt; tag to create a table.</p>
+        </section>
+        <hr>
+        <section>
+            <h2>Basic Table Tags:</h2>
+            <table>
+                <tr>
+                    <th>Tag</th>
+                    <th>Meanings</th>
+                </tr>
+                <tr>
+                    <td>&lt;table&gt;</td>
+                    <td>Defines the table </td>
+                </tr>
+                <tr>
+                    <td>&lt;tr&gt;</td>
+                    <td>Defines a table row</td>
+                </tr>
+                <tr>
+                    <td>&lt;td&gt;</td>
+                    <td>Defines a table data cell</td>
+                </tr>
+                <tr>
+                    <td>&lt;th&gt;</td>
+                    <td>Defines a table head or cell (bold + centered by default) </td>
+                </tr>
+            </table>
+        </section>
+        <hr>
+        <section>
+        <h2>Example: Basic Table</h2>
+            <pre class="code">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+   &lt;title&gt;Basic able Example&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h2&gt;Student Details&lt;/h2&gt;
+    &lt;table border = "1"&gt;
+        &lt;tr&gt;
+          &lt;th&gt;Name&lt;/th&gt;
+          &lt;th&gt;Course&lt;/th&gt;
+          &lt;th&gt;Marks&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Riya&lt;/td&gt;
+          &lt;td&gt;BBA&lt;/td&gt;
+          &lt;td&gt;85&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Neha&lt;/td&gt;
+          &lt;td&gt;BCA&lt;/td&gt;
+          &lt;td&gt;80&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+            </pre>
+            <h3>Output:</h3>
+            <div class="code">
+                <h2>Student Detail</h2>
+                <table border = "1">
+                    <tr>
+                        <th>Name</th>
+                        <th>Course</th>
+                        <th>Marks</th>
+                    </tr>
+                    <tr>
+                        <td>Riya</td>
+                        <td>BBA</td>
+                        <td>85</td>
+                    </tr>
+                    <tr>
+                        <td>Neha</td>
+                        <td>BCA</td>
+                        <td>80</td>
+                    </tr>
+                </table>
+            </div>
+            <h3>Explanation</h3>
+            <ul>
+                <li>&lt;table border = "1"&gt; :- Adds a simple border to the table.</li>
+                <li>&lt;tr&gt; :- Creates a row</li>
+                <li>&lt;th&gt; :- Creates a header cell (bold and centered).</li>
+                <li>&lt;td&gt; :- Creates normal data cells</li>
+            </ul>
+        </section>
+            <hr>
+            <section>
+                <h2>Colspan and Rowspan</h2>
+                <h3>Colspan:</h3>
+                <p>Used to merge multiple columns into one</p>
+                <pre class="code">
+&lt;table border = "1"&gt;
+  &lt;tr&gt;
+    &lt;th colspan = "3"&gt;Student Information&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;th&gt;Name&lt;/th&gt;   
+    &lt;th&gt;Course&lt;/th&gt;   
+    &lt;th&gt;Marks&lt;/th&gt;   
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Neha&lt;/td&gt;
+    &lt;td&gt;BCA&lt;/td&gt;
+    &lt;td&gt;80&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+
+                </pre>
+                <h3>Output:</h3>
+                <div class="code">
+                    <table border = "1">
+                        <tr>
+                            <th colspan = "3">Student Information Information</th>
+                            <tr>
+                                <th>Name</th>
+                                <th>Courses</th>
+                                <th>Marks</th>
+                            </tr>
+                            <tr>
+                                <td>Neha</td>
+                                <td>BCA</td>
+                                <td>80</td>
+                            </tr>
+                        </tr>
+                    </table>
+                </div>
+                <h3>Explanation:</h3>
+                <ul>
+                    <li><span>colspan = "3"</span> merges 3 columns into one header cell :- "Student Information" spans across all columns.</li>
+                </ul>
+                <h3>Rowspan:</h3>
+                <p>Used to merge multiple rows into one.</p>
+                <pre class="code">
+&lt;table border = "1"&gt;
+  &lt;tr&gt;
+    &lt;th rowspan = "2"&gt;Name&lt;/th&gt;
+    &lt;td&gt;Neha&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td&gt;Riya&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+                </pre>
+            </section>
+    </div>
+    </body>
+</html>
